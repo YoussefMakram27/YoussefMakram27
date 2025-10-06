@@ -7,7 +7,7 @@
   📧 <a href="mailto:youssefmakram2108@gmail.com">youssefmakram2108@gmail.com</a> • 
   💼 <a href="https://www.linkedin.com/in/youssef-m-makram-m-osman-659a56233/" target="_blank">LinkedIn</a> • 
   💻 <a href="https://github.com/YoussefMakram27" target="_blank">GitHub</a> • 
-  📱 <a href="https://wa.me/201281446248" target="_blank">WhatsApp</a>
+  📱 <a href="https://wa.me/201281446248" target="_blank">WhatsApp/Phone</a>
 </p>
 
 ---
