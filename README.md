@@ -11,6 +11,13 @@
   📱 <a href="https://wa.me/201281446248" target="_blank">WhatsApp/Phone</a>
 </p>
 
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YoussefMakram27&show_icons=true&theme=tokyonight" alt="Youssef's GitHub stats" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YoussefMakram27&layout=compact&theme=tokyonight" alt="Top Languages" height="165"/>
+</p>
+
 ---
 
 ### 🚀 About Me
