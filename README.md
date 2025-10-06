@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Youssef 👋</h1>
 
 <p align="center">
-  <em>Data Engineer | SQL • PySpark • ETL • Data Warehousing • Cloud Enthusiast</em>
+  <em>Data Engineer | SQL • PySpark • Python • ETL • Data Warehousing • Data Analysis • Machine Learning</em>
 </p>
 
 ---
