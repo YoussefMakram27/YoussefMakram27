@@ -1,10 +1,14 @@
 <h1 align="center">Hi, I'm Youssef 👋</h1>
 
 <p align="center">
-  <em>Data Engineer & Analyst | SQL • PySpark • Python • ETL • Data Warehousing • Data Analysis • Machine Learning</em><br>
-  📧 <a href="mailto:youssefmakram2108@gmail.com">youssefmakram2108@gmail.com</a>
+  <em>Data Engineer & Analyst | SQL • PySpark • Python • ETL • Data Warehousing • Data Analysis • Machine Learning</em>
 </p>
-
+<p align="center">
+  📧 <a href="mailto:youssefmakram2108@gmail.com">Email</a> • 
+  💼 <a href="https://www.linkedin.com/in/youssef-m-makram-m-osman-659a56233/" target="_blank">LinkedIn</a> • 
+  💻 <a href="https://github.com/YoussefMakram27" target="_blank">GitHub</a> • 
+  📱 <a href="https://wa.me/201281446248" target="_blank">WhatsApp</a>
+</p>
 
 ---
 
