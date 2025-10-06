@@ -1,7 +1,8 @@
 <h1 align="center">Hi, I'm Youssef 👋</h1>
 
 <p align="center">
-  <em>Data Engineer & Analyst | SQL • PySpark • Python • ETL • Data Warehousing • Data Analysis • Machine Learning</em>
+  <em>Data Engineer & Analyst | SQL • PySpark • Python • ETL • Data Warehousing • Data Analysis • Machine Learning</em><br>
+  🎓 Graduated from <strong>Computer Engineering, Suez Canal University</strong>
 </p>
 <p align="center">
   📧 <a href="mailto:youssefmakram2108@gmail.com">youssefmakram2108@gmail.com</a> • 
