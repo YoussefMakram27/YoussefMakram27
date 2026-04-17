@@ -61,7 +61,7 @@
 
 ## 📌 Featured Projects
 
-### 🚕 [Uber Real-Time Trip Analytics Pipeline](https://github.com/YoussefMakram27/uber-realtime-pipeline)
+### 🚕 [Uber Real-Time Trip Analytics Pipeline](https://github.com/YoussefMakram27/Uber-Real-Time-Analytics-Pipeline)
 
 > End-to-end real-time pipeline streaming NYC taxi trips through Kafka, processing with Spark, and persisting to SQL Server and Parquet.
 
