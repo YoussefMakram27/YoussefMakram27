@@ -1,13 +1,12 @@
 <h1 align="center">Hi, I'm Youssef 👋</h1>
 <p align="center">
-  <em>Data Engineer & Analyst</em><br>
+  <em>Data Engineer</em><br>
   🎓 B.Sc. in <strong>Computer Engineering, Suez Canal University</strong><br>
-  🏛️ <strong>Information Technology Institute (ITI)</strong> — Data Engineering Program <em>(Jan 2026 – Present)</em><br>
-  <sub>End-to-end data engineering · ETL/ELT · Data Warehousing · Stream Processing · Spark · Kafka · Airflow</sub>
+  🏛️ <strong>Information Technology Institute (ITI)</strong> — Data Engineering Program<br>
+  <sub>End-to-end data engineering · SQL · dbt · ETL/ELT · Data Warehousing · Spark · Kafka · Airflow</sub>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/SQL-%2300758F.svg?style=for-the-badge&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/PySpark-%23E25A1C.svg?style=for-the-badge&logo=apache-spark&logoColor=white"/>
   <img src="https://img.shields.io/badge/Data%20Warehousing-%230072C6.svg?style=for-the-badge&logo=amazondynamodb&logoColor=white"/>
@@ -18,9 +17,9 @@
 
 <p align="center">
   📧 <a href="mailto:youssef.m.makram.m@gmail.com">Email</a> •
-  💼 <a href="https://www.linkedin.com/in/youssef-m-makram-m-osman-659a56233/" target="_blank">LinkedIn</a> •
+  💼 <a href="[www.linkedin.com/in/youssef-m-makram](https://www.linkedin.com/in/youssef-m-makram/)">LinkedIn</a> •
   💻 <a href="https://github.com/YoussefMakram27" target="_blank">GitHub</a> •
-  📱 <a href="https://wa.me/201281446248" target="_blank">WhatsApp</a>
+  📱 <a href="https://wa.me/201039155852" target="_blank">WhatsApp</a>
 </p>
 
 ---
