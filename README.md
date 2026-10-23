@@ -35,11 +35,11 @@
 
 ## 🚀 About Me
 
-- 🧩 Passionate about designing and building scalable **data pipelines** — from raw ingestion to clean, analytics-ready data.
+- 🎓 B.Sc. in Computer Engineering, Suez Canal University
+- 🏛️ Graduated from the Information Technology Institute (ITI) Data Engineering program
+- 🏥 Capstone: Raqib, a healthcare data platform with a Kafka + Spark streaming layer and an Airflow + S3 + Snowflake + dbt batch layer
 - 🧠 Skilled in **SQL**, **Python**, and **PySpark**, with hands-on experience in **Kafka** and growing expertise in **Airflow** and **dbt**.
-- 🔁 I've built real-time streaming pipelines end-to-end: Kafka → Spark Structured Streaming → SQL Server / Parquet.
-- 🎯 Goal: Become a full-stack **Data Engineer** capable of designing, automating, and optimizing end-to-end pipelines at scale.
-- 🌱 Learning next: **Airflow → dbt → cloud-native stacks (AWS/GCP)**.
+
 
 ---
 
@@ -47,12 +47,12 @@
 
 | Category | Tools |
 |----------|-------|
-| **Languages** | Python, SQL |
-| **Data Processing** | PySpark, Pandas, Spark Structured Streaming |
-| **Streaming** | Apache Kafka (confluent-kafka) |
-| **Storage** | SQL Server, Parquet (Snappy) |
-| **Orchestration** | Airflow *(learning)* |
-| **Transformation** | dbt *(learning)* |
+| **Languages** | Python, SQL (T-SQL) |
+| **Batch & Orchestration** | PySpark, Pandas, Apache Airflow |
+| **Streaming** | Apache Kafka (KRaft, Schema Registry, Connect), Spark Structured Streaming |
+| **Warehouse & Lake** | Snowflake, AWS S3, SQL Server, PostgreSQL, Parquet |
+| **Transformation & Quality** | dbt, Great Expectations |
+| **Modeling** | Medallion architecture, star schema, galaxy schema |
 | **Visualization** | Power BI |
 | **Version Control** | Git, GitHub |
 
@@ -98,10 +98,4 @@ Parquet File → Kafka Producer → Kafka Topic (uber_trips)
 - Scalable and automation-ready design
 
 ---
-
-## 📈 What I'm Working Toward
-```
-Current:   Kafka ✅ | Spark Streaming ✅ | SQL Warehousing ✅
-Next:      Airflow (orchestration) → dbt (transformation) → Cloud (AWS/GCP)
-Goal:      End-to-end automated, cloud-native data platform
-```
+<p align="center"> 💬 Open to <b>data engineering</b> roles. Feel free to reach out! </p>
