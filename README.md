@@ -60,42 +60,53 @@
 
 ## 📌 Featured Projects
 
-### 🚕 [Uber Real-Time Trip Analytics Pipeline](https://github.com/YoussefMakram27/Uber-Real-Time-Analytics-Pipeline)
-
-> End-to-end real-time pipeline streaming NYC taxi trips through Kafka, processing with Spark, and persisting to SQL Server and Parquet.
-
-**Tech:** Python · Apache Kafka · Spark Structured Streaming · PySpark · SQL Server · Parquet
+### 🏥 [Raqib: Healthcare Data Intelligence Platform](https://github.com/YoussefMakram27/Raqib-Healthcare-Data-Intelligence-Platform)
+**ITI graduation project, built with a team of five**
+ 
+A healthcare platform that unifies clinical workflows with two pipelines: a real-time layer and a batch warehouse layer.
+ 
 ```
-Parquet File → Kafka Producer → Kafka Topic (uber_trips)
-                                       │
-                    ┌──────────────────┴──────────────────┐
-                    ▼                                      ▼
-           SQL Server Consumer               Spark Structured Streaming
-           (confluent-kafka)                  → Raw Parquet sink
-                                                      │
-                                                      ▼
-                                             Spark Batch Cleaner
-                                              → Cleaned Parquet
+Real-time:  Receptionist → Kafka (3 brokers) → Doctor / Lab consumers → Spark Streaming → PostgreSQL
+Batch:      PostgreSQL → Airflow → S3 (Parquet) → Snowflake → dbt (staging → intermediate → marts)
+Serving:    Power BI dashboard · RAG chatbot (Ollama) · Grafana + Prometheus monitoring
 ```
-
-**Highlights:**
-- Stateful producer with resume-on-restart via `producer_state.json`
-- Kafka delivery confirmation before saving offset state
-- Spark cleaning: deduplication, timestamp correction, speed/distance/fare validation
-- Derived features: `trip_duration_minutes`, `avg_speed_mph`, `is_high_quality`
-
+ 
+- **Fault-tolerant streaming:** 3-broker KRaft Kafka cluster, replication factor 3, `acks=all` and idempotent producers
+- **Warehouse:** dbt models for 11 staging, 4 intermediate, 9 dimension and 7 fact tables (galaxy schema), with automated dbt tests
+- **Orchestration:** daily Airflow DAGs for Postgres → S3 → Snowflake and for `dbt run` + `dbt test`
+- **Serving:** 6-page Power BI report over ~5.6M encounters, plus a Streamlit RAG chatbot that answers questions about patient records
+- **Observability:** Kafka consumer lag and Postgres metrics in Grafana, auto-provisioned
+- **Infra:** 17+ services in one Docker Compose file
+**Stack:** Kafka · PySpark · Airflow · S3 · Snowflake · dbt · Docker · Grafana · Power BI · Ollama
+ 
 ---
-
+ 
+### 🚕 [Uber Real-Time Trip Analytics Pipeline](https://github.com/YoussefMakram27/Uber-Real-Time-Analytics-Pipeline)
+ 
+Streams NYC taxi trips through Kafka, then processes and enriches them with Spark and stores the results in SQL Server and Parquet.
+ 
+```
+Parquet → Kafka Producer → Topic: uber_trips
+                              ├─→ SQL Server Consumer
+                              └─→ Spark Structured Streaming → Raw Parquet
+                                                                  └─→ Spark Batch Cleaner → Cleaned Parquet
+```
+ 
+- Producer resumes after a restart and only saves its state once Kafka confirms delivery
+- Cleaning step: dedupe, fix swapped timestamps, validate distance, fare and speed
+- Derived features: `trip_duration_minutes`, `avg_speed_mph`, `is_high_quality`
+**Stack:** Python · Kafka · Spark Structured Streaming · PySpark · SQL Server · Parquet
+ 
+---
+ 
 ### 🏭 [ERP–CRM Integration for Supply Chain Optimization](https://github.com/YoussefMakram27/ERP-CRM-Integration-for-Supply-Chain-Optimization)
-
-> Integrates ERP (inventory & suppliers) and CRM (sales & customers) into a unified data warehouse for supply chain insights.
-
-**Tech:** SQL · Medallion Architecture (Bronze → Silver → Gold)
-
-**Highlights:**
-- Star schema: 4 Fact tables + 5 Dimension tables
-- Data cleaning, validation, and incremental loading
-- Scalable and automation-ready design
+ 
+Combines siloed ERP (inventory, suppliers, purchasing) and CRM (sales, customers, returns) data into one warehouse for supply chain analytics.
+ 
+- **Bronze → Silver → Gold** layers, with MERGE (upsert) logic for incremental loads
+- Star schema with **4 fact tables** and **5 dimensions**
+- Enables sales performance, low-stock detection, return analysis and supplier evaluation
+**Stack:** SQL · Medallion Architecture · Dimensional Modeling
 
 ---
 <p align="center"> 💬 Open to <b>data engineering</b> roles. Feel free to reach out! </p>
